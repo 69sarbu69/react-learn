@@ -1,0 +1,122 @@
+@keyframes introAppear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+@keyframes sign {
+    to{
+        stroke-dashoffset: 0;
+    }
+    
+}
+
+@keyframes footeranimation {
+    from
+    {
+        opacity: 0;
+    }
+    to
+    {
+        opacity:1;
+    }
+
+    
+}
+
+@keyframes photodp
+{
+    from {opacity: 0;
+        /* height: 0; */
+        /* height:0.1; */
+    }
+    to 
+    {
+        opacity:1;
+        /* height: 1; */
+        /* width:1 */
+       
+    }
+}
+
+@keyframes resize
+{
+    0%{
+        font-size: 5rem;
+        opacity: 0;
+        top:30%
+        
+    }
+    100%{
+        font-size: 2rem;
+        opacity: 1;
+        top:10%;
+    }
+}
+
+
+
+.introDiv{
+    display: none;
+}
+.introDivAppear{
+    display: flex;
+    animation:introAppear ;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+}
+
+
+.Intro_Top{
+     display: flex;
+     position:absolute;
+    animation:resize;
+    animation-duration:2s; 
+    animation-fill-mode: forwards;
+    color:#73BBC9;
+    /* letter-spacing: 2rem; */
+    /* font-style:Montserrat; */
+}
+
+.signature
+{
+  opacity: 1.5;
+  stroke-dasharray: 2400;
+  stroke-dashoffset: 2400;
+  animation: sign 3s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.photo
+{
+    position: absolute;
+    height:40rem;
+    width: 40rem;
+    top:12.5rem;
+    left:40rem;
+    animation: photodp 3s ease-out;
+    animation-fill-mode: forwards;
+    
+}
+
+.Footertext
+{
+    font-size: 2rem;
+    position: absolute;
+    bottom:2.5rem;
+    letter-spacing: 0.5rem;
+    animation: footeranimation 2s ease-in;
+    animation-fill-mode: forwards;
+}
+
+.bold
+{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #FCE9F1;
+}
+

@@ -1,0 +1,158 @@
+.Home{
+    height: 100vh;
+    color: white;
+    background-color: black;
+    background-size:cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Home_Top{
+    /* border:2px solid white; */
+    margin-bottom:3rem;
+
+}
+
+.golden
+{
+  position: absolute;
+  top:1px;   
+}
+
+
+@keyframes gotAboveAndDissapear {
+    0%{
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes gotAboveAppear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+.Home_Inner_Comp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: gotAboveAppear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.Home_Inner_Comp_Changed{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: gotAboveAndDissapear;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.Home_Center{
+    z-index: 1000;
+    width: 60%;
+    height: 15rem;
+    border-top: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.Home_Center h1{
+    font-size:5rem ;
+    /* letter-spacing: 2px; */
+}
+
+.Home_Center h4{
+    letter-spacing: 0.8px;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-family: Montserrat; 
+}
+.Home_Intro{
+    z-index: 1000;
+    width: 60%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.Home_Intro span{
+    border:1.5px solid white;
+    padding:1.5rem 0.5rem 1.5rem 0.5rem;
+    opacity: 0.6;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+@keyframes slowLetterSpacing{
+    0%{
+        letter-spacing: 0px;
+    }
+    100%{
+        letter-spacing: 5px;
+    }
+}
+.Home_Intro_Selected{
+
+    cursor: pointer;
+    opacity: 1;
+    animation-name:slowLetterSpacing;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; 
+    border:1.5px solid white !important;
+    opacity: 1 !important;
+}
+.Home_Intro span:hover{
+    cursor: pointer;
+    opacity: 1;
+    animation-name:slowLetterSpacing;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    /* letter-spacing: 5px; */
+}
+.Home_Foot{
+    background-color: red;
+    width: 60%;
+    /* margin-bottom: -20rem; */
+}
+.footer{
+   position:absolute ;
+   top: 92%;
+}
+.footer span{
+    letter-spacing: 0.4rem;
+    font-weight: 700 !important;
+
+}
+
+/* Home_Top_2
+{
+  position: absolute;
+  top:1px;   
+} */
+
+.king
+{
+    height: 5rem;
+}
