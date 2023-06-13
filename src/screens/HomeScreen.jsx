@@ -10,17 +10,16 @@ const HomeScreen = () => {
     <>
       <div className={!changed? `Home_Inner_Comp`: `Home_Inner_Comp_Changed`}>
         <div className="Home_Top">
-          {/* <FaCrown size={50} /> */}
-          <img className="king" src={golden} alt="king"/>
+          <FaCrown size={81} color="#FFD700"/>
+          {/* <img className="king" src={golden} alt="king"/> */}
         </div>
        
        {/* <div>
         <img className="Home_Top_2" src={golden} alt="golden"/>>
        </div> */}
 
-
         <div className="Home_Center">
-          <h1>सर्वज्ञ श्रेष्ठ </h1>
+          <h1 className="MainName">सर्वज्ञ श्रेष्ठ </h1>
           <h4>I CAN DO ANYTHING I SET MY MIND TO</h4>
         </div>
         <BottomChooseFields />

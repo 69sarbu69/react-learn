@@ -87,7 +87,7 @@
   opacity: 1.5;
   stroke-dasharray: 2400;
   stroke-dashoffset: 2400;
-  animation: sign 3s ease-out;
+  animation: sign 2s ease-out;
   animation-fill-mode: forwards;
 }
 
@@ -95,11 +95,12 @@
 {
     position: absolute;
     height:40rem;
-    width: 40rem;
+    width: 48rem;
     top:12.5rem;
-    left:40rem;
+    left:37rem;
     animation: photodp 3s ease-out;
     animation-fill-mode: forwards;
+    border-radius: 9rem;
     
 }
 
@@ -108,7 +109,7 @@
     font-size: 2rem;
     position: absolute;
     bottom:2.5rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.4rem;
     animation: footeranimation 2s ease-in;
     animation-fill-mode: forwards;
 }

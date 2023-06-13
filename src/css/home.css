@@ -62,8 +62,6 @@
     animation-fill-mode: forwards;
 }
 
-
-
 .Home_Center{
     z-index: 1000;
     width: 60%;
@@ -74,11 +72,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
 }
+/* .MainName
+{
+    color:#73BBC9;
+} */
 .Home_Center h1{
-    font-size:5rem ;
+    font-size:8.1rem ;
     /* letter-spacing: 2px; */
 }
 
@@ -151,8 +151,3 @@
   position: absolute;
   top:1px;   
 } */
-
-.king
-{
-    height: 5rem;
-}
