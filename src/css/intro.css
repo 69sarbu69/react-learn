@@ -51,7 +51,7 @@
         
     }
     100%{
-        font-size: 2rem;
+        font-size: 3rem;
         opacity: 1;
         top:10%;
     }
@@ -95,9 +95,9 @@
 {
     position: absolute;
     height:40rem;
-    width: 50rem;
-    top:12.5rem;
-    left:35rem;
+    width: auto;
+    top:14rem;
+    left:40rem;
     animation: photodp 2.5s ease-out;
     animation-fill-mode: forwards;
     border-radius: 9rem;
@@ -125,6 +125,6 @@
 {
     position: absolute;
     top:23rem;
-    left:51rem;
+    left:48rem;
 
 }
