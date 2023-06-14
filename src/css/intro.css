@@ -93,11 +93,12 @@
 
 .photo
 {
+
     position: absolute;
-    height:40rem;
-    width: 50rem;
+    width:62rem;
+    height: auto;
     top:12.5rem;
-    left:35rem;
+    left:30rem;
     animation: photodp 2.5s ease-out;
     animation-fill-mode: forwards;
     border-radius: 9rem;
